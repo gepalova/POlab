@@ -13,6 +13,18 @@ namespace lab1
         public double Radius { get; }
         public double Square => Math.PI * Radius * Radius;
 
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+        /// <summary>   Constructor. </summary>
+        ///
+        /// <remarks>   Mi Air, 08.03.2020. </remarks>
+        ///
+        /// <exception cref="ArgumentException">    Thrown when one or more arguments have unsupported or
+        ///                                         illegal values. </exception>
+        ///
+        /// <param name="point">    The point. </param>
+        /// <param name="radius">   The radius. </param>
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+
         public Circle(Point point, double radius)
         {
             if (radius <= 0)

@@ -12,6 +12,15 @@ namespace lab1
         public double x;
         public double y;
 
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+        /// <summary>   Constructor. </summary>
+        ///
+        /// <remarks>   Mi Air, 08.03.2020. </remarks>
+        ///
+        /// <param name="x">    The x coordinate. </param>
+        /// <param name="y">    The y coordinate. </param>
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+
         public Point(double x, double y)
         {
             this.x = x;

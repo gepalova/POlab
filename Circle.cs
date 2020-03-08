@@ -35,5 +35,9 @@ namespace lab1
             return new Circle(this.Center.x + vector.x, this.Center.y + vector.y,
                 this.Radius);
         }
+        public double RadiusOfDoubleCircle()
+        {
+            return Math.Sqrt(this.Square * 2 / Math.PI);
+        }
     }
 }
